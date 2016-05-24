@@ -1,0 +1,6 @@
+-include $(TOPDIR)/Make.defs
+
+ASRCS =
+CSRCS = fmu_init.c fmu_led.c
+
+include $(TOPDIR)/configs/Board.mk

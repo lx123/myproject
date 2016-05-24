@@ -1,0 +1,11 @@
+#!nsh
+#
+# PX4FMU startup script.
+#
+#  NOTE: COMMENT LINES ARE REMOVED BEFORE STORED IN ROMFS.
+#
+
+#
+# Start CDC/ACM serial driver
+#
+sercon
